@@ -154,13 +154,13 @@ this css. element centers text elements*/
 }
 
 .flex-item-left {
-  background-color: black;
+  background-color: blue;
   padding: 10px;
   flex: 50%;
 }
 
 .flex-item-right {
-  background-color: black;
+  background-color: blue;
   padding: 10px;
   flex: 50%;
 }
