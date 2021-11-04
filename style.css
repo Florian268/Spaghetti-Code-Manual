@@ -49,7 +49,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 This code controls that cool parallax image and scrolling effect. Change the image "fuego.jpg" below to match your asset.*/
 /*You can always add more parllax assets on your web document, just follow the directions at the bottom of the index.html.*/
 .parallax-1 { 
-  background-image: url("fuego.jpg");
+  background-image: url("Coding Wallpaper.jpg");
 
   /* Set a specific height */
   height: 500px; 
