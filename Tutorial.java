@@ -30,5 +30,35 @@ public class Tutorial
 	public static int[] foo2(int size){
 		return new int[size];
 	}
-
+	/*
+	public static int bar({
+	int one = 1;
+	int two = 2;
+	for(int i=0;i<10;i++{
+	one = one+two;
+	two = two+one;
+	return two;
+	*/
+	
+	/*
+	public static int bar(){
+	int one = 1;
+	int two = 2;
+	for(int i=0;i<10;i++{
+	one = one+two;
+	two = two+one;
+	}
+	return two;
+	}
+	*/
+	
+	public static int bar(){
+		int one = 1;
+		int two = 2;
+		for(int i=0;i<10;i++{
+			one = one+two;
+			two = two+one;
+		}
+		return two;
+	}
 }
