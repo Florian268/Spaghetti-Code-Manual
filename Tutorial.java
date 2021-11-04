@@ -1,27 +1,21 @@
 public class Tutorial
 {
 
-	//The main body of code for the program to execute
 	public static void main(String[] args){
-
-		int[] x = foo();
-
+		
+		int size = 10;
+		int sum = 0;
+		int[] x = foo(size);
+		
+		for(int i=0;i<size;i++){
+			x[i] = i;
+			sum = sum + i;
+		}
+		
+		System.out.println("Sum is "+sum+".");
 	}
 
-	/* foo
-	* 
-	* Description:
-	* Returns an array of given size
-	* 
-	* Arguments:
-	* -int size
-	*
-	* Return
-	* -int[size] 
-	*/
-	public static int[] foo(int size){return new int[size];}
-	
-	
+
 	/* foo2
 	* 
 	* Description:
