@@ -1,1 +1,0 @@
-UML diagrams model and document software. There are several different types of these diagrams. Perhaps the most popular is the Class Diagram. This has boxes that label each class and its methods (marked by its privacy) and its connection to each other class.
