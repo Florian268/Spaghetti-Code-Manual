@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>test file</title>
+  <meta charset="UTF-8">
+  <script src="../codemirror/lib/codemirror.js"></script>
+  <link rel="stylesheet" href="../codemirror/lib/codemirror.css">
+  <link rel="stylesheet" href="../codemirror/theme/neat.css">
+  <script src="../codemirror/mode/clike/clike.js"></script>
+  <style>
+    body{
+      background-color: #00ff00;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="codeeditor"></div>
+  <script>
+    var editor = CodeMirror(document.getElementById("codeeditor"),{
+      theme: "neat",
+      lineNumbers: true,
+      tabSize:5
+    });
+  </script>
+</body>
