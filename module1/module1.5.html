@@ -1,85 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Open Fuego</title>
+<title>Code Structure</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
 
-
-
-<script src="../codemirror/lib/codemirror.js"></script>
-<link rel="stylesheet" href="../codemirror/lib/codemirror.css">
-<link rel="stylesheet" href="../codemirror/theme/midnight.css">
-<script src="../codemirror/mode/clike/clike.js"></script>
-
-
-
-
-</head>  
-
-<!--Looks like you're ready to get going on your webpage. Good luck. Let's remember a few basic things.
-
-1. If you haven't worked through one of our Open Fuego introductory assignmnets (Electrate Fuego or I-Am-A-Project-In-Becoming), please do so. It will give you the basic skills to use this tool.
-2. File Management. Keep your asset names simple and one word.
-3. Make sure your assets names/file type match your code.
-4. Describe all images for accesibility purposes.
-5. Consult W3 when our code is not working for you.
-6. Control Z, Control Z, Control Z
-7. Publish, share, spread the Fuego!-->
-
-<!--BTW. You can leave these hidden HTML text fields be, or delete them. They are but road signs, absent from the larger design-->
 
 <body>
 
-<div>
-    <h2>Spaghetti Code</h2>
+    <div>
+      <h1><a href="../index.html">Spaghetti Code</a></h1>
+      <h2><a href="module1.1.html">Code Structure</a></h2>
     </div>
-
 
 <div class="flex-container">
   <div class="flex-item-left">
        <br>
-   <img src="../images/hero.png" alt="describe the image HERE for accessibility purposes" style="max-width:100%">
+   <img class="center-image" style="width:90%" src="module1.5.png" alt="description" style="max-width:100%">
     </div>
 
 
-	<div class="flex-item-right">
-       <div style="text-align: left">
-			<h3>Code Structure</h3>
-			<h6>The first and most important part of code structure is the Open-Close Rule. Every time you create an opening tag, such as '(', '[', or '{', you must remember to close that tag with it's partner tag ')', ']', or '}'. Depending on what language you write in, different objects will use different tags to determine functionality, so don't worry about jargon. Just focus on the structure.
-				Every function call should have a set of parenthesis '()' directly after the call. If I have a function named "foo", I would call it by typing "foo(argument1, argument2, etc)".
-				You access an array by typing "arrayName[i]" where i is the position of the element you want to access.
-				Several objects like conditional statements and function bodies get sectioned into blocks by using curly braces "{}".
-				Putting this all together, I might write a function like this:
-			</h6>
-
-			<img src="module1img1.jpg" alt="tutorial code for generic function foo" style="max-width:100%">
-
-			<h6>Notice how each tag gets a closing tag. But we can make this code more readable if we add some alignment. Alignment impacts the readability of your code immensely. The general rule is to indent all code within a code block. A code block is determined by an opening and closing curly brace '{}'. So, to align foo in such a manner, I would do this: </h6>
-
-			<img src="module1img2.jpg" alt="tutorial code for generic function foo" style="max-width:100%">
-
-			<h6>The function definition for foo comes before the first curly brace, and the code within foo gets indented. Then the closing curly brace goes in the same column as foo, not indented. This should apply for any number of nested code blocks.</h6>
-			<h6>Take a look at the next code block:</h6>
-
-			<img src="module1img3.jpg" alt="tutorial code for a full program" style="max-width:100%">
-
-			<h6>Here, we used the foo function we defined before to create an array and do some computations with it. When you separate sections of code within a block, others will find an easier time understanding the flow of your code. The general order of sections should be as follows:
-				<ol>
-					<li>Declarations</li>
-					<li>Computations</li>
-					<li>Return</li>
-				</ol>
-				To stay even more structured, be sure to add lines of white space between any major computations you may be performing. By following this general order, you can keep your code easy to change and understand. Now, let's take a look at some bad code and see what needs fixed.
-			</h6>
-			<a href="module1Q1.html"><center><button>Click to Start Module 1</button></center></a>
-		</div>
-    </div>
+  <div class="flex-item-right">
+  <div style="text-align: left">
+   <h3>Spacing</h3>
+    <h6>Programmers use spacing to make their code more readable. Implementing proper spacing requires little effort, but makes code even easier to understand.</h6>
+    <h6>Line spacing denotes a separation of instructions using 'newline' characters (hitting Enter on the keybaord several times). Programmers should put space between any 'sets' of instructions with different purposes. Most often these purposes fall into categories like creating variables, naming a function, or performing computations. Each set of instructions should have space between them to further clarify which instructions belong together.</h6>
+    <h6>Now that we implemented proper spacing and indenting, the code looks clean and aesthetically pleasing. But, not everyone can understand what it does. Good programmers use comments to make code understandable. Let's take a look at good commenting next.
+      <a href="module1.6.html"><center><button>Continue</button></center></a>
+  </div>
+  </div>
 </div>
+<div class="textblock" style="text-align: left">
    <footer>
     <div class="container">
-      <p>Copyright John Pepling, 2021.</p>
+      <p>Copyright Pepling 2021.</p>
       </div>
   </footer>
   </body>
