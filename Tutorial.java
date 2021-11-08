@@ -41,13 +41,11 @@ public class Tutorial{
 
 	//------------------------------------------------------------------
 	public static void printATriangle(int size){
-
-		String s = "*";
+			String s = "*";
 
 		for(int i=0;i<size;i++){
 			System.out.println(s);
 			s = s+'*';
-
 
 		System.out.println("");
 		System.out.println("A triangle with a base of "+size+".");
